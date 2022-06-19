@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220523203738" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__container">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item-title"><span class="menu__link-title">Меню</span></li>
+								<li class="menu__item"><a href="" class="menu__link">Головна</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Буковель</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Яремче</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Котеджі</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Chalet</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакти</a></li>
+							</ul>
+						</nav>
+						<a href="tel:380967404337" class="menu__phone">+38 (096) 740 4337</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__main main-page">
+				<div class="main-page__container">
+					<div class="main-page__wrapper">
+						<div class="main-page__content content-main">
+							<h1 class="content-main__title title">Велика Ведмедиця</h1>
+							<p class="content-main__subtitle subtitle"><span> Мережа</span> готелів та котеджів в Буковелі та Яремче</p>
+							<form class="content-main__form form-main">
+								<div class="form-main__item item-1">
+									<h3 class="form-main__title">Бронювання номерів</h3>
+									<p class="form-main__subtitle">Гарантоване заселення</p>
+								</div>
+								<div class="form-main__item item-2">
+									<label for="arrivaldate" class="form-main__label">Дата заїзду</label>
+									<input id="arrivaldate" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Коли?" class="form-main__input" />
+								</div>
+
+								<div class="form-main__item item-3">
+									<label for="departuredate">Дата виїзду</label>
+									<input id="departuredate" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Коли?" class="form-main__input" />
+								</div>
+								<div class="form-main__item item-4">
+									<label for="guests" class="form-main__label">Гостей</label>
+									<input id="guests" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Кількість гостей? " class="form-main__input" />
+								</div>
+								<div class="form-main__item item-5">
+									<button class="form-main__button _icon-search"><span>Пошук</span></button>
+								</div>
+							</form>
+							<button data-popup="#booking" type="submit" class="content-main__button">Бронювання номерів</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__main-slider main-slider">
+				<div class="main-slider__container">
+					<div class="main-slider__wrapper">
+						<div class="main-slider__content content-main-slider">
+							<p class="content-main-slider__subtitle subtitle"><span> АТМОСФЕРНИЙ</span> ВІДПОЧИНОК В ГОРАХ</p>
+							<h3 class="content-main-slider__title title">Велика ведмедиця</h3>
+							<div class="content-main-slider__text">
+								<p>Отримайте комплексний відпочинок, а не ключі від номеру.</p>
+								<p><span>У нас європейський сервіс та домашня атмосфера затишку і гостинності.</span></p>
+								<p>• Готельно-ресторанний комплекс "Ведмежий Двір" у Буковелі</p>
+								<p>• Family готель в Яремче</p>
+								<p>• Елітні котеджі від Яремча до Буковеля</p>
+							</div>
+						</div>
+						<div class="main-slider__slider slider-main-slider">
+							<!-- Оболочка слайдера -->
+							<div class="slider-main-slider__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="slider-main-slider__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="slider-main-slider__slide swiper-slide">
+										<div class="slider-main-slider__img-ibg">
+											<picture><source srcset="img/main-slider/3.webp" type="image/webp"><img src="img/main-slider/3.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="slider-main-slider__slide swiper-slide">
+										<div class="slider-main-slider__img-ibg">
+											<picture><source srcset="img/main-slider/1.webp" type="image/webp"><img src="img/main-slider/1.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="slider-main-slider__slide swiper-slide">
+										<div class="slider-main-slider__img-ibg">
+											<picture><source srcset="img/main-slider/2.webp" type="image/webp"><img src="img/main-slider/2.jpg" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+
+								<!-- Если нужна навигация (влево/вправо) -->
+								<button type="button" class="swiper-button-prev _icon-arrow"></button>
+								<button type="button" class="swiper-button-next _icon-arrow"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__accommodation-options options-accommodation">
+				<div class="options-accommodation">
+					<div class="options-accommodation__container">
+						<div class="options-accommodation__header">
+							<h3 class="options-accommodation__title title">Варiанти проживания</h3>
+						</div>
+						<div class="options-accommodation__wrap">
+							<!-- Оболочка слайдера -->
+							<div class="options-accommodation__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="options-accommodation__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/1.webp" type="image/webp"><img src="img/option-slider/1.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Готельно-ресторанний комплекс у Буковелі</h4>
+												<ul>
+													<li>• Шведські сніданки</li>
+													<li>• Панорамний ресторан "Honey"</li>
+													<li>• Конференц сервіс - до 100 осіб</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/2.webp" type="image/webp"><img src="img/option-slider/2.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/3.webp" type="image/webp"><img src="img/option-slider/3.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Котеджі в Буковелі та Яремче</h4>
+												<ul>
+													<li>• Басейн з підігрівом</li>
+													<li>• Літня тераса + зона відпочинку з мангалом</li>
+													<li>• Безкоштовна парковка</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/2.webp" type="image/webp"><img src="img/option-slider/2.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/1.webp" type="image/webp"><img src="img/option-slider/1.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/2.webp" type="image/webp"><img src="img/option-slider/2.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/3.webp" type="image/webp"><img src="img/option-slider/3.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+									<div class="options-accommodation__slide swiper-slide slide-options">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/1.webp" type="image/webp"><img src="img/option-slider/1.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__content">
+											<div class="slide-options__text">
+												<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+												<ul>
+													<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+													<li>• 7 видів гуцульських сніданків</li>
+													<li>• Гуцульське СПА просто неба</li>
+												</ul>
+											</div>
+											<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+										</div>
+									</div>
+								</div>
+								<!-- Если нужна навигация (влево/вправо) -->
+								<button type="button" class="options-accommodation__swiper-button-prev _icon-arrow-left"></button>
+								<button type="button" class="options-accommodation__swiper-button-next _icon-arrow-left"></button>
+
+								<!-- Если нужен скролбар -->
+								<div class="swiper-scrollbar"></div>
+							</div>
+
+							<div class="options-accommodation__galery galery-options">
+								<div class="galery-options__images" id="left">
+									<div class="galery-options__image image_1">
+										<picture><source srcset="img/option/1.webp" type="image/webp"><img src="img/option/1.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_2">
+										<picture><source srcset="img/option/2.webp" type="image/webp"><img src="img/option/2.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_3">
+										<picture><source srcset="img/option/3.webp" type="image/webp"><img src="img/option/3.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_4">
+										<picture><source srcset="img/option/4.webp" type="image/webp"><img src="img/option/4.jpg" alt="" /></picture>
+									</div>
+								</div>
+								<div class="galery-options__content" id="right">
+									<p class="galery-options__subtitle subtitle"><span>Найкращі</span> номери та котеджі у центрі Карпат</p>
+									<h3 class="galery-options__title title">Готель в Буковель</h3>
+									<div class="galery-options__text">
+										<p>Готель "Ведмежий Двір" знаходиться в с. Поляниця. В готелі є 24 номери та 2-а окремих дерев'яних котеджа з каміном.</p>
+										<ul>
+											<li>До ваших послуг:</li>
+											<li>• шведський сніданок (включений у вартість)</li>
+											<li>• новий ресторан Honey</li>
+											<li>• дитяча кімната</li>
+											<li>• гуцульське СПА (баня, гарячі діжки)</li>
+											<li>• прокат лижного спорядження</li>
+											<li>• BBQ-place</li>
+											<li>• конференц сервіс</li>
+											<li>• автостоянка</li>
+										</ul>
+									</div>
+									<a href="#" class="galery-options__link _icon-arrow-right">Переглянути номери</a>
+								</div>
+							</div>
+							<div class="options-accommodation__galery galery-options">
+								<div class="galery-options__content" id="left_1">
+									<p class="galery-options__subtitle subtitle"><span>УКРАЇНСЬКА</span> ТА ЄВРОПЕЙСЬКА КУХНЯ</p>
+									<h3 class="galery-options__title title">Ресторан HONEY</h3>
+									<div class="galery-options__text">
+										<p>Ми відкрили новий ресторан, де вас будуть дивувати поєднанням української та європейської кухонь.</p>
+										<p>
+											Бренд-шеф Дмитро Кузнєцов ітерпретує традиційні рецептури на сучасний лад й окрім професійного досвіду додає до кожної страви
+											особливий інгредієнт, – Любов!
+										</p>
+									</div>
+									<div class="galery-options__links">
+										<a href="#" class="galery-options__link _icon-arrow-right">МЕНЮ</a>
+										<a href="#" class="galery-options__link _icon-arrow-right">НАПОЇ</a>
+									</div>
+								</div>
+								<div class="galery-options__images" id="right_1">
+									<div class="galery-options__image image_2">
+										<picture><source srcset="img/option/5.webp" type="image/webp"><img src="img/option/5.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_1">
+										<picture><source srcset="img/option/6.webp" type="image/webp"><img src="img/option/6.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_4">
+										<picture><source srcset="img/option/7.webp" type="image/webp"><img src="img/option/7.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_3">
+										<picture><source srcset="img/option/8.webp" type="image/webp"><img src="img/option/8.jpg" alt="" /></picture>
+									</div>
+								</div>
+							</div>
+							<div class="options-accommodation__galery galery-options">
+								<div class="galery-options__images" id="left_2">
+									<div class="galery-options__image image_1">
+										<picture><source srcset="img/option/9.webp" type="image/webp"><img src="img/option/9.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_2">
+										<picture><source srcset="img/option/10.webp" type="image/webp"><img src="img/option/10.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_3">
+										<picture><source srcset="img/option/11.webp" type="image/webp"><img src="img/option/11.jpg" alt="" /></picture>
+									</div>
+									<div class="galery-options__image image_4">
+										<picture><source srcset="img/option/12.webp" type="image/webp"><img src="img/option/12.jpg" alt="" /></picture>
+									</div>
+								</div>
+								<div class="galery-options__content" id="right_2">
+									<p class="galery-options__subtitle subtitle"><span>ЗАТИШНІ</span> НОМЕРИ ТА КОТЕДЖІ В ЯРЕМЧЕ</p>
+									<h3 class="galery-options__title title">ГОТЕЛЬ В Яремче</h3>
+									<div class="galery-options__text">
+										<p>
+											Готель "Велика Ведмедиця" знаходиться в м. Яремче В готелі є 16 номерів та 2-а окремих дерев'яних котеджа з каміном (за межами
+											готелю)
+										</p>
+										<ul>
+											<li>До ваших послуг:</li>
+											<li>• 7 видів гуцульських сніданків</li>
+											<li>• дитяча кімната</li>
+											<li>• басейн з підігрівом</li>
+											<li>• гуцульське СПА (баня, гарячі діжки)</li>
+											<li>• сауна</li>
+											<li>• BBQ-place</li>
+											<li>• автостоянка</li>
+										</ul>
+									</div>
+									<a href="#" class="galery-options__link _icon-arrow-right">Переглянути номери</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__cottage cottage">
+				<div class="cottage">
+					<div class="cottage__container">
+						<div class="options-accommodation__header">
+							<h3 class="title" id="cotage">Котеджі та Шале</h3>
+						</div>
+						<div class="options-accommodation__galery galery-options">
+							<div class="galery-options__content" id="left_3">
+								<p class="galery-options__subtitle subtitle"><span>В</span> БУКОВЕЛІ ТА ЯРМЧЕ</p>
+
+								<h3 class="galery-options__title title">Котеджі</h3>
+								<div class="galery-options__text">
+									<p><span>Європейський сервіс та затишок як вдома</span></p>
+									<ul>
+										<li>• Басейн з підігрівом</li>
+										<li>• Літня тераса + зона відпочинку з мангалом</li>
+										<li>• Дитяча кімната</li>
+										<li>• Безкоштовна парковка</li>
+										<li>• Власна кухня та неймовірні краєвиди</li>
+									</ul>
+								</div>
+								<a href="#" class="galery-options__link _icon-arrow-right">Переглянути</a>
+							</div>
+							<div class="galery-options__images" id="right_3">
+								<div class="galery-options__image image_1">
+									<picture><source srcset="img/option/13.webp" type="image/webp"><img src="img/option/13.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_2">
+									<picture><source srcset="img/option/14.webp" type="image/webp"><img src="img/option/14.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_3">
+									<picture><source srcset="img/option/15.webp" type="image/webp"><img src="img/option/15.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_4">
+									<picture><source srcset="img/option/16.webp" type="image/webp"><img src="img/option/16.jpg" alt="" /></picture>
+								</div>
+							</div>
+						</div>
+						<div class="options-accommodation__galery galery-options">
+							<div class="galery-options__images" id="left_4">
+								<div class="galery-options__image image_1">
+									<picture><source srcset="img/option/17.webp" type="image/webp"><img src="img/option/17.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_2">
+									<picture><source srcset="img/option/18.webp" type="image/webp"><img src="img/option/18.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_3">
+									<picture><source srcset="img/option/19.webp" type="image/webp"><img src="img/option/19.jpg" alt="" /></picture>
+								</div>
+								<div class="galery-options__image image_4">
+									<picture><source srcset="img/option/20.webp" type="image/webp"><img src="img/option/20.jpg" alt="" /></picture>
+								</div>
+							</div>
+							<div class="galery-options__content" id="right_4">
+								<p class="galery-options__subtitle subtitle"><span>В</span> БУКОВЕЛІ</p>
+								<h3 class="galery-options__title title">Авторськi Шале</h3>
+								<div class="galery-options__text">
+									<ul>
+										<li>• Сучасні шале та апартаменти в котеджному містечку закритого типу в ТК “Буковель”</li>
+										<li>• Поруч: ресторани, аптеки, розважальні центри, магазини, Озеро Молодості, SPA, нічний клуб.</li>
+									</ul>
+								</div>
+								<a href="#" class="galery-options__link _icon-arrow-right">Переглянути</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__trust trust">
+				<div class="trust">
+					<div class="trust__container">
+						<div class="trust__header">
+							<h3 class="trust__title title" id="trust">Нам довiряють</h3>
+						</div>
+						<!-- Оболочка слайдера -->
+						<div class="trust__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="trust__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="trust__slide swiper-slide slide-trust">
+									<p class="slide-trust__name">Оксана</p>
+									<div class="slide-trust__message">
+										<p>
+											Наилучшее соотношение из тех, что я встречала - цены и размещения. Практически в пару метрах ходьбы от центра, но в тихом,
+											спокойном месте. Есть все условия для отдыха с детьми. Приятно обустроенный домик, двор и все удобства в номере. И
+											внимательность администраторов приятно порадовала. Для отдыха и релакса прекрасный вариант отеля! Благодарю за это! P.S. Для
+											тех, кто хочет больше активности - в отеле есть бильярд. сауна и басейн. А также конфернец зал, где можно проводить тренинги,
+											семинары или встречи.
+										</p>
+									</div>
+								</div>
+								<div class="trust__slide swiper-slide slide-trust">
+									<p class="slide-trust__name">Оксана</p>
+									<div class="slide-trust__message">
+										<p>
+											Наилучшее соотношение из тех, что я встречала - цены и размещения. Практически в пару метрах ходьбы от центра, но в тихом,
+											спокойном месте. Есть все условия для отдыха с детьми. Приятно обустроенный домик, двор и все удобства в номере. И
+											внимательность администраторов приятно порадовала. Для отдыха и релакса прекрасный вариант отеля! Благодарю за это! P.S. Для
+											тех, кто хочет больше активности - в отеле есть бильярд. сауна и басейн. А также конфернец зал, где можно проводить тренинги,
+											семинары или встречи.
+										</p>
+									</div>
+								</div>
+								<div class="trust__slide swiper-slide slide-trust">
+									<p class="slide-trust__name">Оксана</p>
+									<div class="slide-trust__message">
+										<p>
+											Наилучшее соотношение из тех, что я встречала - цены и размещения. Практически в пару метрах ходьбы от центра, но в тихом,
+											спокойном месте. Есть все условия для отдыха с детьми. Приятно обустроенный домик, двор и все удобства в номере. И
+											внимательность администраторов приятно порадовала. Для отдыха и релакса прекрасный вариант отеля! Благодарю за это! P.S. Для
+											тех, кто хочет больше активности - в отеле есть бильярд. сауна и басейн. А также конфернец зал, где можно проводить тренинги,
+											семинары или встречи.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<div class="trust__controls">
+								<button type="button" class="trust__swiper-button-prev _icon-arrow-left"></button>
+								<button type="button" class="trust__swiper-button-next _icon-arrow-left"></button>
+							</div>
+						</div>
+						<div class="options-accommodation__header">
+							<h3 class="options-accommodation__title title">Ключові переваги</h3>
+						</div>
+						<!-- Оболочка слайдера -->
+						<div class="options-accommodation__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="options-accommodation__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/4.webp" type="image/webp"><img src="img/option-slider/4.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__img-box">
+											<picture><source srcset="img/option-slider/logo-1.webp" type="image/webp"><img class="slide-options__logo" src="img/option-slider/logo-1.png" alt="" /></picture>
+										</div>
+									</div>
+
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">9.0 на Booking.com</h4>
+											<ul>
+												<li>156 правдивих відгуків</li>
+												<li>на сайті Booking.com,</li>
+												<li>244 відгука на Google Business</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img">
+										<div class="slide-options__img-ibg">
+											<picture><source srcset="img/option-slider/5.webp" type="image/webp"><img src="img/option-slider/5.jpg" alt="" /></picture>
+										</div>
+										<div class="slide-options__img-box">
+											<picture><source srcset="img/option-slider/logo-2.webp" type="image/webp"><img class="slide-options__logo" src="img/option-slider/logo-2.png" alt="" /></picture>
+										</div>
+									</div>
+
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Finalist 2019</h4>
+											<ul>
+												<li>"Ведмежий Двір" став фіналістом</li>
+												<li>міжнародного конкурсу в номінації</li>
+												<li>- "Кращий зелений готель"</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/6.webp" type="image/webp"><img src="img/option-slider/6.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Котеджі в Буковелі та Яремче</h4>
+											<ul>
+												<li>• Басейн з підігрівом</li>
+												<li>• Літня тераса + зона відпочинку з мангалом</li>
+												<li>• Безкоштовна парковка</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/4.webp" type="image/webp"><img src="img/option-slider/4.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+											<ul>
+												<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+												<li>• 7 видів гуцульських сніданків</li>
+												<li>• Гуцульське СПА просто неба</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/5.webp" type="image/webp"><img src="img/option-slider/5.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+											<ul>
+												<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+												<li>• 7 видів гуцульських сніданків</li>
+												<li>• Гуцульське СПА просто неба</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/6.webp" type="image/webp"><img src="img/option-slider/6.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+											<ul>
+												<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+												<li>• 7 видів гуцульських сніданків</li>
+												<li>• Гуцульське СПА просто неба</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/4.webp" type="image/webp"><img src="img/option-slider/4.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+											<ul>
+												<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+												<li>• 7 видів гуцульських сніданків</li>
+												<li>• Гуцульське СПА просто неба</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+								<div class="options-accommodation__slide swiper-slide slide-options">
+									<div class="slide-options__img-ibg">
+										<picture><source srcset="img/option-slider/5.webp" type="image/webp"><img src="img/option-slider/5.jpg" alt="" /></picture>
+									</div>
+									<div class="slide-options__content">
+										<div class="slide-options__text">
+											<h4 class="slide-options__title">Найкращий Family готель в Яремче</h4>
+											<ul>
+												<li>• Цікаве дозвілля для ваших дітей гарантовано</li>
+												<li>• 7 видів гуцульських сніданків</li>
+												<li>• Гуцульське СПА просто неба</li>
+											</ul>
+										</div>
+										<a href="#" class="slide-options__link _icon-arrow-right">Переглянути</a>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="options-accommodation__swiper-button-prev _icon-arrow-left"></button>
+							<button type="button" class="options-accommodation__swiper-button-next _icon-arrow-left"></button>
+							<!-- Если нужен скролбар -->
+							<div class="swiper-scrollbar"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery gallery">
+				<div class="gallery">
+					<div class="gallery__container">
+						<div class="gallery__box">
+							<!-- Оболочка слайдера -->
+							<div class="gallery__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="gallery__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="gallery__slide swiper-slide slide-gallery">
+										<div class="slide-gallery__img">
+											<picture><source srcset="img/gallery-slider/5.webp" type="image/webp"><img src="img/gallery-slider/5.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery__slide swiper-slide slide-gallery">
+										<div class="slide-gallery__img">
+											<picture><source srcset="img/gallery-slider/6.webp" type="image/webp"><img src="img/gallery-slider/6.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery__slide swiper-slide slide-gallery">
+										<div class="slide-gallery__img">
+											<picture><source srcset="img/gallery-slider/7.webp" type="image/webp"><img src="img/gallery-slider/7.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery__slide swiper-slide slide-gallery">
+										<div class="slide-gallery__img">
+											<picture><source srcset="img/gallery-slider/8.webp" type="image/webp"><img src="img/gallery-slider/8.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery__slide swiper-slide slide-gallery">
+										<div class="slide-gallery__img">
+											<picture><source srcset="img/gallery-slider/9.webp" type="image/webp"><img src="img/gallery-slider/9.jpg" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<!-- Если нужна пагинация -->
+								<div class="gallery__swiper-pagination"></div>
+							</div>
+
+							<!-- Оболочка слайдера -->
+							<div class="gallery-small__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="gallery-small__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="gallery-small__slide swiper-slide slide-gallery-small">
+										<div class="slide-gallery-small__img">
+											<picture><source srcset="img/gallery-slider/4-mini.webp" type="image/webp"><img src="img/gallery-slider/4-mini.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery-small__slide swiper-slide slide-gallery-small">
+										<div class="slide-gallery-small__img">
+											<picture><source srcset="img/gallery-slider/2-mini.webp" type="image/webp"><img src="img/gallery-slider/2-mini.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery-small__slide swiper-slide slide-gallery-small">
+										<div class="slide-gallery-small__img">
+											<picture><source srcset="img/gallery-slider/3-mini.webp" type="image/webp"><img src="img/gallery-slider/3-mini.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery-small__slide swiper-slide slide-gallery-small">
+										<div class="slide-gallery-small__img">
+											<picture><source srcset="img/gallery-slider/5-mini.webp" type="image/webp"><img src="img/gallery-slider/5-mini.jpg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="gallery-small__slide swiper-slide slide-gallery-small">
+										<div class="slide-gallery-small__img">
+											<picture><source srcset="img/gallery-slider/6-mini.webp" type="image/webp"><img src="img/gallery-slider/6-mini.jpg" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+
+								<!-- Если нужна навигация (влево/вправо) -->
+
+								<button type="button" class="gallery-small__swiper-button-prev _icon-arrow"></button>
+								<button type="button" class="gallery-small__swiper-button-next _icon-arrow"></button>
+							</div>
+						</div>
+
+						<h3 class="gallery__title title">Частi запитання</h3>
+						<div data-spollers class="gallery__spollers spollers-gallery">
+							<div class="spollers-gallery__item">
+								<button type="button" data-spoller class="spollers-gallery__title _icon-arrow">
+									Включений сніданок у вартість і який тип сніданку пропонується?
+								</button>
+								<div class="spollers-gallery__body">Так в готелі є ресторан, де можна покуштувати смачні гуцульські страви</div>
+							</div>
+							<div class="spollers-gallery__item">
+								<button type="button" data-spoller class="spollers-gallery__title _icon-arrow">Чи можу я оплатити рахунок по прибуттю?</button>
+								<div class="spollers-gallery__body">Так в готелі є ресторан, де можна покуштувати смачні гуцульські страви</div>
+							</div>
+							<div class="spollers-gallery__item">
+								<button type="button" data-spoller class="spollers-gallery__title _icon-arrow">Чи є в готелі ресторан?</button>
+								<div class="spollers-gallery__body">Так в готелі є ресторан, де можна покуштувати смачні гуцульські страви</div>
+							</div>
+							<div class="spollers-gallery__item">
+								<button type="button" data-spoller class="spollers-gallery__title _icon-arrow">Чи можу я відмінити бронювання?</button>
+								<div class="spollers-gallery__body">Так в готелі є ресторан, де можна покуштувати смачні гуцульські страви</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__contact contact">
+				<div class="contact">
+					<div class="contact__container">
+						<h3 class="contact__title title">Наші контакти</h3>
+						<div class="contact__row">
+							<div class="contact__content content-contact">
+								<div class="content-contact__box">
+									<ul class="content-contact__list">
+										<li class="content-contact__item">ВІДДІЛ БРОНЮВАННЯ:</li>
+										<li class="content-contact__item">
+											<a href="#" class="content-contact__link">+38 (096) 740 4337</a>
+										</li>
+										<li class="content-contact__item">
+											<a href="#" class="content-contact__link">hotel@vedmedycya.com.ua</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-contact__box">
+									<p><span>Ведмежий Двір</span> - вулиця Карпатська, 1/1, Поляниця, Івано-Франківська область, 78593</p>
+								</div>
+								<div class="content-contact__box">
+									<p><span>Велика Ведмедиця</span> - вул. Вітовського, 5, Яремче, Івано-Франківська область, 78500</p>
+								</div>
+								<div class="content-contact__box">
+									<p><span>Авторські шале</span> - Участок Вишні 421, Буковель, 78593, Україна, Поляниця, Івано-Франківська область, 78593</p>
+								</div>
+								<div class="content-contact__social social-contact">
+									<ul class="social-contact__list">
+										<li class="social-contact__item">
+											<a href="#" class="social-contact__link _icon-facebook"></a>
+										</li>
+										<li class="social-contact__item">
+											<a href="#" class="social-contact__link _icon-instagram"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="contact__map">
+								<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9cac7841e673c47e413fb32c99315d25ce20046757ba7834d2935ca4dbdcfeb6&amp;width=100%25&amp;height=474&amp;lang=ru_RU&amp;scroll=false&_v=20220523203738"></script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__description description">
+				<div class="description">
+					<div class="description__container">
+						<div class="description__wrap">
+							<div class="description__slider swiper">
+								<div class="description__wrapper swiper-wrapper">
+									<div class="description__slide swiper-slide">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae obcaecati similique temporibus ab error veniam sed quae quas,
+											eligendi nemo dolorem, impedit aut autem ad nostrum vel repellat est magni.
+										</p>
+										<p>
+											Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dicta eveniet maiores recusandae eum fugiat ullam? Eveniet
+											rerum delectus molestiae. Itaque ullam commodi autem ipsum, doloremque possimus ducimus blanditiis modi.
+										</p>
+										<p>
+											Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dicta eveniet maiores recusandae eum fugiat ullam? Eveniet
+											rerum delectus molestiae. Itaque ullam commodi autem ipsum, doloremque possimus ducimus blanditiis modi.
+										</p>
+										<p>
+											Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dicta eveniet maiores recusandae eum fugiat ullam? Eveniet
+											rerum delectus molestiae. Itaque ullam commodi autem ipsum, doloremque possimus ducimus blanditiis modi.
+										</p>
+										<p>
+											Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dicta eveniet maiores recusandae eum fugiat ullam? Eveniet
+											rerum delectus molestiae. Itaque ullam commodi autem ipsum, doloremque possimus ducimus blanditiis modi.
+										</p>
+									</div>
+								</div>
+
+								<div class="description__swiper-scrollbar swiper-scrollbar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__row">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<span>Меню</span>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Буковель</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Яремче</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Котеджі</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Chalet</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Контакти</a>
+							</li>
+						</ul>
+						<ul class="footer__social-list social-footer__list">
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-facebook"></a>
+							</li>
+							<li class="social-footer__item">
+								<a href="#" class="social-footer__link _icon-instagram"></a>
+							</li>
+						</ul>
+						<div class="footer__logo">
+							<picture><source srcset="img/footer-logo.webp" type="image/webp"><img src="img/footer-logo.png" alt="" /></picture>
+						</div>
+						<div class="footer__phone phone-footer">
+							<a href="tel:380967404337" class="phone-footer__link"> +38 (096) 740 4337</a>
+						</div>
+						<div class="footer__arrow footer-arrow">
+							<a href="#" data-goto=".page__main" data-goto-speed="3000" class="footer-arrow__link _icon-arrow-right">Наверх</a>
+							<a href="#" data-goto=".page__main" data-goto-speed="3000" class="footer-arrow__link-mobile _icon-arrow"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="booking" aria-hidden="true" class="booking-popup popup">
+		<div class="booking__wrapper popup__wrapper">
+			<div class="booking__content popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<form action="" class="booking__form popup__form form-popup form-booking">
+					<h3 class="form-popup__title form-booking__title">Бронювання номерів</h3>
+					<p class="form-popup__subtitle form-booking__subtitle">Гарантоване заселення</p>
+					<div class="form-popup__item form-booking__item">
+						<label for="booking-arrivaldate" class="form-popup__label form-booking__label">Дата заїзду</label>
+						<input id="booking-arrivaldate" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Коли?" class="form-popup__input form-booking__input" />
+					</div>
+					<div class="form-popup__item form-booking__item">
+						<label for="booking-departuredate" class="form-popup__label form-booking__label">Дата виїзду</label>
+						<input id="booking-departuredate" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Коли?" class="form-popup__input form-booking__input" />
+					</div>
+					<div class="form-popup__item form-booking__item">
+						<label for="data" class="form-popup__label form-booking__label">Гостей</label>
+						<input id="data" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Кількість гостей?" class="form-popup__input form-booking__input" />
+					</div>
+					<div class="form-popup__item form-booking__item">
+						<button type="submit" class="form-popup__button button _icon-search form-booking__button">Пошук</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js?_v=20220523203738"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js?_v=20220523203738"></script>
+	<script src="js/app.min.js?_v=20220523203738"></script>
+
+</body>
+
+</html>
